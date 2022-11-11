@@ -56,7 +56,7 @@ const Home: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       {!usuarioStatic ? <ModalView/> : 
-      <IonContent fullscreen>
+      <IonContent id="ion-contenido" fullscreen>
         <div className={styles.mainContent}>
           <IonCardSubtitle className={styles.results}>
           </IonCardSubtitle>

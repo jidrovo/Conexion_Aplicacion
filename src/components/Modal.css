@@ -4,6 +4,10 @@ ion-modal#example-modal {
   --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 }
 
+ion-content{
+  --background:#13203D;
+}
+
 ion-modal#example-modal::part(backdrop) {
   background: rgba(209, 213, 219);
   opacity: 1;
@@ -13,13 +17,30 @@ ion-modal#example-modal ion-toolbar {
   --background: #5a55ca;
   --color: white;
 }
-ion-content{
-  --color:white;
+ion-header#ion-principal{
+  --color:blue;
 }
 ion-icon#alert{
   font-size: 100px;
+  padding: 10px;
 }
 ion-list#formLogin{
   padding: 40px;
   font-weight: 600;
+}
+.ion-login{
+  background-color: white;
+}
+ion-header#ion-padding{
+  background-color: #13203D;
+  border-radius: 10px;
+  border-color: white;
+  border-style: groove;
+  padding: 1.5em;
+  text-align: center;
+  font-family: Monaco, monospace;
+}
+ion-text#example-text{
+  color: white;
+
 }
